@@ -21,4 +21,4 @@ This is only a very first version of the GPane. I am planning to extend more cla
 
 ##Support:
 For Suggestions or Issues you can contact me at Info@kingtech.nl
-All rights reserved.
+  (All rights reserved).
