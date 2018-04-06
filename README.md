@@ -18,3 +18,7 @@ Every function in the Pane class that can returns a void can be called with a g 
 
 ##Future work:
 This is only a very first version of the GPane. I am planning to extend more classes in the Pane hierarchie (like Region) and spread the new functions over these classes instead of having them all in one class.
+
+##Support:
+For Suggestions or Issues you can contact me at Info@kingtech.nl
+All rights reserved.
