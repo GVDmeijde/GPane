@@ -13,8 +13,19 @@ public class GMenuBar extends MenuBar{
 	ArrayList<MenuButton> buttons = new ArrayList<>();
 	MenuBar menuBar;
 	
+	/**
+	* Default constructor.
+	*/
+	public GMenuBar(){
+		menuBar = new MenuBar();
+	}
+	
+	/**
+	 * If a BorderPane is passed to the constructor this GMenuBar will be set as the top-menu for the BorderPane.
+	 * @param window, the BorderPane to add this GMenuBar to.
+	 */
 	public GMenuBar(BorderPane window) {
-		menuBar = new MenuBar();		
+		this();		
 		window.setTop(menuBar);
 	}
 	/**
