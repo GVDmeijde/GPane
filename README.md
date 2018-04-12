@@ -3,11 +3,11 @@ Java GFX is a small collection of helper classes i use in multiple project to he
 It allows for a more C# way of programming by linking multiple 'void' functions to eachoter (e.g.: GPane.gSetWidth(2).gSetHeight(2).gApplyCss(); )
 Unfortunately overwriting the original functions prevents us from changing the return type so a new functions are created.
 
-##GPane
+## GPane
 This class enables cleaner code when defining Panes. 
 Every function in the Pane class that can returns a void can be called with a g in front of it's name to return the GPane object. e.g.:  "public void autoSize()"  is also implemented as  "public GPane gAutoSize()".
 
-###Extra functionalities:
+### Extra functionalities:
 - Reimplemented all void functions with a 'g' function to return the current instance instead of void.
 - Added Scene as variable (for scaling).
 - Added new constructor that automatically inherit's the parent's Scene.
@@ -19,13 +19,13 @@ Every function in the Pane class that can returns a void can be called with a g 
 - Added gSetTranslate to set all translates at once.
 - Added gResetTranslate to reset the translations.
 
-##GMenuBar
+## GMenuBar
 Like the GPane function the GMenuBar enables cleaner code when defining MenuBars. The first version of the GMenuBar is used specificly for the top-menu of the BorderPane it is located in. In a later stage i will add the possibility to use it as a 'normal' MenuBar.
 also the GMenuBar doesnt overwrite all void functions of the MenuBar class yet. This class is in a really early stage.
 
-##Future work:
+## Future work:
 This is only a very first version of the GPane & GMenuBar. I am planning to extend more classes in the Pane hierarchie (like Region) and spread the new functions over these classes instead of having them all in one class.
 
-##Support:
+## Support:
 For Suggestions or Issues you can contact me at info@kingtech.nl
   (All rights reserved).
